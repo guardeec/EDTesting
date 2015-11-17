@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="331.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox prefHeight="373.0" prefWidth="950.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="261.0" prefWidth="204.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Функционал">
+                     <VBox.margin>
+                        <Insets bottom="3.0" />
+                     </VBox.margin>
+                  </Text>
+                  <ChoiceBox fx:id="functionalCB" prefWidth="200.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <HBox prefHeight="16.0" prefWidth="203.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#functionalAdd" text="Добавить">
+                           <HBox.margin>
+                              <Insets bottom="10.0" />
+                           </HBox.margin></Button>
+                        <Button mnemonicParsing="false" onAction="#functionalDel" text="Удалить">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="41.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Тип злоумышленника">
+                     <VBox.margin>
+                        <Insets bottom="3.0" top="23.0" />
+                     </VBox.margin>
+                  </Text>
+                  <ChoiceBox fx:id="hackerTypeCB" prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Уровень злоумышленника">
+                     <VBox.margin>
+                        <Insets bottom="3.0" />
+                     </VBox.margin>
+                  </Text>
+                  <ChoiceBox fx:id="hackerLevelCB" layoutX="10.0" layoutY="88.0" prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <HBox layoutX="10.0" layoutY="63.0" prefHeight="16.0" prefWidth="203.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#hackerAdd" text="Добавить">
+                           <HBox.margin>
+                              <Insets bottom="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#hackerDel" text="Удалить">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="41.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Button mnemonicParsing="false" onAction="#calculate" text="Вычислить">
+                     <VBox.margin>
+                        <Insets left="55.0" top="23.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </HBox.margin>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <VBox prefHeight="261.0" prefWidth="323.0">
+               <children>
+                  <TableView fx:id="functionalTable" prefHeight="309.0" prefWidth="322.0">
+                    <columns>
+                      <TableColumn prefWidth="33.0" text="#">
+                         <cellValueFactory>
+                            <PropertyValueFactory property="number" />
+                         </cellValueFactory>
+                      </TableColumn>
+                      <TableColumn prefWidth="289.0" text="Функционал">
+                         <cellValueFactory>
+                            <PropertyValueFactory property="function" />
+                         </cellValueFactory>
+                      </TableColumn>
+                    </columns>
+                  </TableView>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </HBox.margin>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <VBox prefHeight="261.0" prefWidth="323.0">
+               <children>
+                  <TableView fx:id="hackerTable" prefHeight="309.0" prefWidth="322.0">
+                     <columns>
+                        <TableColumn prefWidth="33.0" text="#">
+                           <cellValueFactory>
+                              <PropertyValueFactory property="number" />
+                           </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn prefWidth="174.0" text="Тип злоумышленника">
+                           <cellValueFactory>
+                              <PropertyValueFactory property="type" />
+                           </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn prefWidth="115.0" text="Уровень">
+                        <cellValueFactory>
+                           <PropertyValueFactory property="level" />
+                        </cellValueFactory>
+                     </TableColumn>
+                     </columns>
+                  </TableView>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

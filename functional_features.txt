@@ -1,0 +1,13 @@
+1   &functional=   Ethernet&
+2   &functional=   Wi-Fi&
+3   &functional=   Bluetooth&
+4   &functional=   InfraRed&
+5   &functional=   Traffic_encryption&
+6   &functional=   Update_system&
+7   &functional=   User_authorization&
+8   &functional=   Sensors_with_remote_access&
+9   &functional=   Sensors&
+10  &functional=   Remote_access_interfaces&
+11  &functional=   Local_interfaces&
+12  &functional=   Web_server&
+13  &functional=   GPS&
