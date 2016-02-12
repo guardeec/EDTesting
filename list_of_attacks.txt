@@ -1,23 +1,23 @@
-1   &использование социальной инженерии для получения доступа к встроенному устройству
-2   &перехват, модиификация и подделка TCP/IP-сообщений от встроенного устройства (MitM)
-3   &DDoS-атаки
-4   &использование конкретных уязвимостей встроенного устройства (использование некорректных сетевых пакетов, переполнение буфера) по TCP/IP
-5   &криптографический анализ зашифрованных сообщений
-6   &воздействие на систему аутентификации встроенного устройства
-7   &атаки на систему обновления встроенного устройства
-8   &атака по стороннему каналу на основе параметров удалённого доступа (световые характеристики, электромагнитное излучение)
-9   &перехват, модификация и подделка сообщений от встроенного устройства через Bluetooth
-10  &перехват, модификация и подделка сообщений от встроенного устройства через Wi-Fi
-11  &перехват, модификация и подделка сообщений от встроенного устройства через InfraRed
-12  &атаки с использованием сенсоров встроенного устройства, предполагающих удаленный доступ
-13  &атаки на интерфейсы встроенного устройства, позволяющие получить удалённый доступ на устройство
-14  &удаленные атаки на устройства посредством прямого воздействия на их аппаратные компоненты (радиочастотные атаки)
-15  &атаки по сторонним каналам на основе различных характеристик с использованием прямого доступа
-16  &атаки на интерфейсы встроенного устройства с использованием прямого доступа к ним
-17  &помещение поддельного встроенного устройства в систему вместо оригинального
-18  &атаки с использованием данных от сенсоров встроенного устройства (помещение устройства в полностью контролируемую среду)
-19  &компрометация или замена сенсоров
-20  &чтение и модификация данны непосредственно с микросхем
-21  &неавторизованная замена аппаратных компонентов устройства
-22  &специализированные атаки на сервер на основе известных уязвимостей ПО
-23  &физическая атака экранирования через GPS
+1   &using of social engineering to gain access to the embedded device
+2   &interception, and forgery modification TCP / IP- messages from the embedded device (MitM)
+3   &DDoS-attacks
+4   &using of specific vulnerabilities embedded device (use of incorrect network packets, buffer overflow) over TCP / IP
+5   &cryptographic analysis of encrypted messages
+6   &impact on the embedded device authentication system
+7   &attacks on the system firmware update device
+8   &side-channel attack based remote access options (light characteristics, electromagnetic radiation)
+9   &interception, modification or tampering with messages from the embedded device via Bluetooth
+10  &interception, modification or tampering with messages from the embedded device via Wi-Fi
+11  &interception, modification or tampering with messages from the embedded device via InfraRed
+12  &attacks with the use of an embedded device sensors, suggesting remote access
+13  &attack on an embedded device interfaces that allow to get remote access to the device
+14  &remote attacks on the device by means of a direct impact on their hardware components (RF) attacks
+15  &side-channel attack based on various characteristics with direct access
+16  &attack on the embedded device interfaces using a direct access to them
+17  &space fake embedded device in place of the original
+18  &attacks using data from sensors embedded device (device space into a fully controlled environment)
+19  &compromise or replacement sensors
+20  &DATA reading and modification directly with chips
+21  &unauthorized replacement of the hardware components of the device
+22  &specialized attacks on a server based on known software vulnerabilities
+23  &physical attack shielding by GPS
